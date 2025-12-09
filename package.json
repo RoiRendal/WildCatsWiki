@@ -1,0 +1,27 @@
+{
+  "name": "it314-finals",
+  "version": "1.0.0",
+  "description": "*Static website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm install --prefix frontend && npm install --prefix backend",
+    "server": "npm run dev --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoiRendal/IT314-Finals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoiRendal/IT314-Finals/issues"
+  },
+  "homepage": "https://github.com/RoiRendal/IT314-Finals#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
