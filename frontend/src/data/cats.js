@@ -13,8 +13,13 @@ export const cats = [
     stats: {
       lifespan: "10-15 years",
       speed: "56 km/h",
-      weight: "230 kg"
-    }
+      weight: "230 kg",
+      stripePattern: "Unique as fingerprints"
+    },
+    funFacts: [
+        "Tigers love to swim and play in water.",
+        "They are the largest cat species in the world."
+    ]
   },
   {
     id: "lion",
@@ -25,8 +30,13 @@ export const cats = [
     stats: {
       lifespan: "10-14 years",
       speed: "74 km/h",
-      weight: "206 kg"
-    }
+      weight: "206 kg",
+      roarVolume: "114 decibels"
+    },
+    funFacts: [
+        "A lion's roar can be heard from 5 miles away.",
+        "Female lions do 90% of the hunting."
+    ]
   },
   {
     id: "jaguar",
@@ -37,8 +47,13 @@ export const cats = [
     stats: {
       lifespan: "12-15 years",
       speed: "80 km/h",
-      weight: "96 kg"
-    }
+      weight: "96 kg",
+      biteForce: "1500 PSI"
+    },
+    funFacts: [
+        "Jaguars hunt by biting directly through the skull.",
+        "Unlike most cats, they love water."
+    ]
   },
   {
     id: "leopard",
@@ -49,7 +64,8 @@ export const cats = [
     stats: {
       lifespan: "12-17 years",
       speed: "58 km/h",
-      weight: "51 kg"
+      weight: "51 kg",
+      climbingAbility: "Excellent"
     }
   }
 ];
