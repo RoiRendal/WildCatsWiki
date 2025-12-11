@@ -28,15 +28,22 @@ function Quiz() {
     };
     /* THIS IS AN ENTIRE BLOCK */
 
-    
+    const resetQuiz = () => {
+    // Begin the quiz all over again
+    setCurrentQuestion(0);
+    setScore(0);
+    setShowScore(false);
+    };
+
+
 
     return (
-        <div>
-            <Navbar />
-
+        <div className="max-w-2xl mx-auto mt-10">
             <h1 className="text-3xl font-extrabold text-center text-stone-800 mb-8">
               What Do You Know About These Felines?
             </h1>
+
+            
         </div>
     );
 }
