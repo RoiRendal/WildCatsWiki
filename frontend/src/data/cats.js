@@ -18,8 +18,8 @@ export const cats = [
       stripePattern: "Unique as fingerprints"
     },
     funFacts: [
-        "Tigers love to swim and play in water.",
-        "They are the largest cat species in the world."
+        "Tigers avoid conflict with other predators, such as leopards or bears, unless necessary.",
+        "They can survive without food for up to two weeks but become weaker during this time."
     ],
     sections: [
       {
@@ -93,7 +93,7 @@ export const cats = [
     attribution: "By Charles J. Sharp - Own work, from Sharp Photography, sharpphotography.co.uk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=87748243",
     name: "Jaguar",
     scientificName: "Panthera onca",
-    description: "The jaguar is a large cat species and the only living member of the genus Panthera native to the Americas.",
+    description: "The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas. With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat species in the Americas and the third largest in the world. Its distinctively marked coat features pale yellow to tan colored fur covered by spots that transition to rosettes on the sides, although a melanistic black coat appears in some individuals. The jaguar's powerful bite allows it to pierce the carapaces of turtles and tortoises and to employ an unusual killing method: it bites directly through the skull of mammalian prey between the ears to deliver a fatal blow to the brain.",
     image: jaguarImg,
     stats: {
       lifespan: "12-15 years",
@@ -102,8 +102,45 @@ export const cats = [
       biteForce: "1500 PSI"
     },
     funFacts: [
-        "Jaguars hunt by biting directly through the skull.",
-        "Unlike most cats, they love water."
+        "The jaguar is the apex predator of its jungle habitat. It has no natural predators other than people.",
+        "Jaguars have a highly diverse diet. They prey on more than 85 known species."
+    ],
+    sections: [
+      {
+        title: "Physical Characteristics",
+        content: [
+          "The jaguar is a compact and muscular animal. It is the largest cat native to the Americas and the third largest in the world, exceeded in size only by the tiger and the lion. It stands 57 to 81 cm (22.4 to 31.9 in) tall at the shoulders. Its size and weight vary considerably depending on sex and region: weights in most regions are normally in the range of 56–96 kg (123–212 lb). Exceptionally big males have been recorded to weigh as much as 158 kg (348 lb). The smallest females from Middle America weigh about 36 kg (79 lb). It is sexually dimorphic, with females typically being 10–20% smaller than males. The length from the nose to the base of the tail varies from 1.12 to 1.85 m (3 ft 8 in to 6 ft 1 in). The tail is 45 to 75 cm (18 to 30 in) long and the shortest of any big cat. Its muscular legs are shorter than the legs of other Panthera species with similar body weight.",
+          "The jaguar's coat ranges from pale yellow to tan or reddish-yellow, with a whitish underside and covered in black spots. The spots and their shapes vary: on the sides, they become rosettes, which may include one or several dots. The spots on the head and neck are generally solid, as are those on the tail, where they may merge to form bands near the end and create a black tip. They are elongated on the middle of the back, often connecting to create a median stripe, and blotchy on the belly. These patterns serve as camouflage in areas with dense vegetation and patchy shadows. Jaguars living in forests are often darker and considerably smaller than those living in open areas, possibly due to the smaller numbers of large, herbivorous prey in forest areas."
+        ]
+      },
+      {
+        title: "Distribution and Habitat",
+        content: [
+          "In 1999, the jaguar's historic range at the turn of the 20th century was estimated at 19,000,000 km² (7,300,000 sq mi), stretching from the southern United States through Central America to southern Argentina. By the turn of the 21st century, its global range had decreased to about 8,750,000 km² (3,380,000 sq mi), with most declines occurring in the southern United States, northern Mexico, northern Brazil, and southern Argentina. Its present range extends from the United States and Mexico through Central America to South America, comprising Belize, Guatemala, Honduras, Nicaragua, Costa Rica, particularly on the Osa Peninsula, Panama, Colombia, Venezuela, Guyana, Suriname, French Guiana, Ecuador, Peru, Bolivia, Brazil, Paraguay, and Argentina. It is considered to be locally extinct in El Salvador and Uruguay.",
+          "Jaguars have been occasionally sighted in Arizona, New Mexico, and Texas, with 62 accounts reported in the 20th century. Between 2012 and 2015, a male vagrant jaguar was recorded in 23 locations in the Santa Rita Mountains. Eight jaguars were photographed in the southwestern US between 1996 and 2024."
+        ]
+      },
+      {
+        title: "Hunting and Diet",
+        content: [
+          "The jaguar is an obligate carnivore and depends solely on flesh for its nutrient requirements. An analysis of 53 studies documenting the diet of the jaguar revealed that its prey ranges in weight from 1 to 130 kg (2.2 to 286.6 lb); it prefers prey weighing 45–85 kg (99–187 lb), with the capybara and the giant anteater being the most selected. When available, it also preys on marsh deer, southern tamandua, collared peccary, and black agouti. In floodplains, jaguars opportunistically take reptiles such as green anacondas, turtles, and caimans. Consumption of reptiles appears to be more frequent in jaguars than in other big cats. One remote population in the Brazilian Pantanal is recorded to primarily feed on aquatic reptiles and fish. The jaguar also preys on livestock in cattle ranching areas where wild prey is scarce. The daily food requirement of a captive jaguar weighing 34 kg (75 lb) was estimated at 1.4 kg (3.1 lb) of meat.",
+          "The jaguar's bite force allows it to pierce the carapaces of the yellow-spotted Amazon river turtle and the yellow-footed tortoise. It employs an unusual killing method: it bites mammalian prey directly through the skull between the ears to deliver a fatal bite to the brain. It kills capybara by piercing its canine teeth through the temporal bones of its skull, breaking its zygomatic arch and mandible, and penetrating its brain, often through the ears. It has been hypothesized to be an adaptation to cracking open turtle shells; armored reptiles may have formed an abundant prey base for the jaguar following the late Pleistocene extinctions. However, this is disputed, as even in areas where jaguars prey on reptiles, they are still taken relatively infrequently compared to mammals in spite of their greater abundance."
+        ]
+      },
+      {
+        title: "Conservation",
+        content: [
+          "The jaguar is listed on CITES Appendix I, which means that all international commercial trade in jaguars or their body parts is prohibited. Hunting jaguars is prohibited in Argentina, Brazil, Colombia, French Guiana, Honduras, Nicaragua, Panama, Paraguay, Suriname, the United States, and Venezuela. Hunting jaguars is restricted in Guatemala and Peru. In Ecuador, hunting jaguars is prohibited, and they are classified as threatened with extinction. In Guyana, it is protected as an endangered species, and hunting it is illegal.",
+          "In 1986, the Cockscomb Basin Wildlife Sanctuary was established in Belize as the world's first protected area for jaguar conservation."
+        ]
+      },
+      {
+        title: "Etymology",
+        content: [
+          "The word \"jaguar\" is possibly derived from the Tupi-Guarani word yaguara, meaning \"wild beast that overcomes its prey at a bound.\" Because \"jaguar\" also applies to other animals, indigenous peoples in Guyana call it \"jaguareté,\" with the added suffix \"eté,\" meaning \"true beast.\" \"Onca\" is derived from the Portuguese name \"onça\" for a spotted cat that is larger than a lynx; cf. ounce. The word \"panther\" is derived from the classical Latin panthēra, itself from the ancient Greek πάνθηρ (pánthēr).",
+          ""
+        ]
+      }
     ]
   },
   {
