@@ -6,6 +6,7 @@ import leopardImg from '../assets/cats/leopard.jpg';
 export const cats = [
   {
     id: "tiger",
+    attribution: "By Charles James Sharp, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=88142663",
     name: "Bengal Tiger",
     scientificName: "Panthera tigris",
     description: "The Bengal tiger is a population of the Panthera tigris tigris subspecies. It ranks among the biggest wild cats alive today.",
@@ -61,6 +62,7 @@ export const cats = [
   },
   {
     id: "lion",
+    attribution: "By © Giles Laurent, gileslaurent.com, License CC BY-SA, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=151312926",
     name: "African Lion",
     scientificName: "Panthera leo",
     description: "The lion is a large cat of the genus Panthera native to Africa and India. It uses a cooperative hunting strategy.",
@@ -87,6 +89,7 @@ export const cats = [
   },
   {
     id: "jaguar",
+    attribution: "By USFWS - U.S. Fish and Wildlife Service Digital Library System, Public Domain, https://commons.wikimedia.org/w/index.php?curid=314152",
     name: "Jaguar",
     scientificName: "Panthera onca",
     description: "The jaguar is a large cat species and the only living member of the genus Panthera native to the Americas.",
@@ -104,6 +107,7 @@ export const cats = [
   },
   {
     id: "leopard",
+    attribution: "By Sumeet Moghe - File:African_leopard_male.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=107561790",
     name: "Leopard",
     scientificName: "Panthera pardus",
     description: "The leopard is one of the five extant species in the genus Panthera. It is known for its well-camouflaged fur and climbing ability.",

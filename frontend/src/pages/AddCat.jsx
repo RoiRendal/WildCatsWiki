@@ -12,6 +12,7 @@ function AddCat() {
     name: '',
     scientificName: '',
     description: '',
+    attribution: '',
     imageUrl: '',
     lifespan: '',
     speed: '',
@@ -29,6 +30,7 @@ function AddCat() {
             name: catToEdit.name,
             scientificName: catToEdit.scientificName,
             description: catToEdit.description,
+            attribution: catToEdit.attribution || '',
             imageUrl: catToEdit.image,
             lifespan: catToEdit.stats.lifespan,
             speed: catToEdit.stats.speed,
@@ -96,6 +98,7 @@ function AddCat() {
       name: formData.name,
       scientificName: formData.scientificName,
       description: formData.description,
+      attribution: formData.attribution,
       image: formData.imageUrl,
       stats: {
         lifespan: formData.lifespan,
@@ -204,6 +207,18 @@ function AddCat() {
                         </div>
                     )}
                 </div>
+                <div className="mt-4">
+                    <label className="text-[10px] md:text-xs font-bold text-white bg-black inline-block px-2 py-1 mb-1 font-mono uppercase tracking-wider">
+                        Image Attribution / Source
+                    </label>
+                    <input 
+                        name="attribution" 
+                        value={formData.attribution} 
+                        onChange={handleChange} 
+                        className="w-full p-2 md:p-3 border-2 border-black font-mono text-sm md:text-base focus:bg-yellow-100 focus:outline-none shadow-[4px_4px_0px_0px_rgba(0,0,0,0.2)] focus:shadow-none focus:translate-x-[2px] focus:translate-y-[2px] transition-all rounded-none" 
+                        placeholder="e.g. Photo by Jane Doe on Unsplash" 
+                    />
+                </div>    
             </div>
         </div>
 
