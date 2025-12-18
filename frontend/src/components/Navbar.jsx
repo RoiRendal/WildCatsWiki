@@ -3,7 +3,7 @@ import tigerLogo from '../assets/tiger-emoji.png';
 
 function Navbar() {
   return (
-    <nav className="bg-blue-700 border-b-4 border-black sticky top-0 z-50">
+    <nav className="bg-blue-700 border-b-4 border-black">
       
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
