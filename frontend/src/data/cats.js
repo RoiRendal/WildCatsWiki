@@ -7,9 +7,9 @@ export const cats = [
   {
     id: "tiger",
     attribution: "By Charles James Sharp, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=88142663",
-    name: "Bengal Tiger",
+    name: "Tiger",
     scientificName: "Panthera tigris",
-    description: "The Bengal tiger is a population of the Panthera tigris tigris subspecies. It ranks among the biggest wild cats alive today.",
+    description: "The tiger is a population of the Panthera tigris species. It ranks among the biggest wild cats alive today.",
     image: tigerImg,
     stats: {
       lifespan: "10-15 years",
@@ -21,34 +21,21 @@ export const cats = [
         "Tigers love to swim and play in water.",
         "They are the largest cat species in the world."
     ],
-
-    /* NEW:
-       Scalable Document Structure
-       Format:
-
-       sections: [
-         {
-         title: "",
-         content: [
-           "",
-           ""
-         ]
-         },
-         {
-         title: "",
-         content: [
-           "",
-           ""
-         ]
-         }
-         etc etc...
-       ]                           */
     sections: [
       {
         title: "Physical Characteristics",
         content: [
-          "The Bengal tiger's coat is yellow to light orange, with stripes ranging from dark brown to black. The belly and the interior parts of the limbs are white, and the tail is orange with black rings.",
-          "Male Bengal tigers have an average total length of 270 to 310 cm (110 to 120 in) including the tail, while females measure 240 to 265 cm (94 to 104 in). The weight of males ranges from 180 to 258 kg (397 to 569 lb), while that of females ranges from 100 to 160 kg (220 to 350 lb)."
+          "The tiger's coat is yellow to light orange, with stripes ranging from dark brown to black. The belly and the interior parts of the limbs are white, and the tail is orange with black rings.",
+          "Male tigers have an average total length of 270 to 310 cm (110 to 120 in) including the tail, while females measure 240 to 265 cm (94 to 104 in). The weight of males ranges from 180 to 258 kg (397 to 569 lb), while that of females ranges from 100 to 160 kg (220 to 350 lb)."
+        ]
+      },
+      {
+        title: "Distribution and Habitat",
+        content: [
+          "The tiger historically ranged from eastern Turkey, northern Iran and Afghanistan to Central Asia and from northern Pakistan through the Indian subcontinent and Indochina to southeastern Siberia, Sumatra, Java and Bali. As of 2022, it inhabits less than 7% of its historical distribution and has a scattered range in the Indian subcontinent, the Indochinese Peninsula, Sumatra, northeastern China and the Russian Far East. As of 2020, India had the largest extent of global tiger habitat with 300,508 km2 (116,027 sq mi), followed by Russia with 195,819 km2 (75,606 sq mi).",
+          "The tiger mainly lives in forest habitats and is highly adaptable Records in Central Asia indicate that it primarily inhabited Tugay riverine forests and hilly and lowland forests in the Caucasus. In the Amur-Ussuri region of Russia and China, it inhabits Korean pine and temperate broadleaf and mixed forests; riparian forests serve as dispersal corridors, providing food and water for both tigers and ungulates.",
+          "On the Indian subcontinent, it inhabits mainly tropical and subtropical moist broadleaf forests, temperate broadleaf and mixed forests, tropical moist evergreen forests, tropical dry forests, alluvial plains and the mangrove forests of the Sundarbans.",
+          "In the Eastern Himalayas, it was documented in temperate forest up to an elevation of 4,200 m (13,800 ft) in Bhutan, of 3,630 m (11,910 ft) in the Mishmi Hills and of 3,139 m (10,299 ft) in Mêdog County, southeastern Tibet. In Thailand, it lives in deciduous and evergreen forests. In Sumatra, it inhabits lowland peat swamp forests and rugged montane forests."
         ]
       },
       {
@@ -119,4 +106,42 @@ export const cats = [
       climbingAbility: "Excellent"
     }
   }
+  /* === Template ===
+  {
+    id: "",
+    attribution: "",
+    name: "",
+    scientificName: "",
+    description: "",
+    image: catImg,
+    stats: {
+      lifespan: "",
+      speed: "",
+      weight: "",
+      sampleSample: ""
+    },
+    funFacts: [
+        "",
+        ""
+    ],
+    sections: [
+      {
+        title: "",
+        content: [
+          "",
+          ""
+        ]
+      },
+      {
+        title: "",
+        content: [
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+  */
 ];
+
+console.log("hello");
