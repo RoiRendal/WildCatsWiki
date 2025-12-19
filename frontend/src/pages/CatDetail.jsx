@@ -136,6 +136,23 @@ function CatDetail() {
                 </p>
             </div>
 
+            {/* FUN FACTS */}
+            {cat.funFacts && (
+                <div id="fun-facts" className="bg-yellow-100 p-6 border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] relative scroll-mt-32 transform -rotate-1">
+                    {/* Tape visual */}
+                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-24 h-6 bg-yellow-200 opacity-50 border-x border-white"></div>
+                    
+                    <h3 className="font-black text-xl mb-4 underline decoration-2 decoration-black">
+                        NOTES & TRIVIA:
+                    </h3>
+                    <ul className="list-disc list-inside space-y-2 font-mono text-sm md:text-base">
+                        {cat.funFacts.map((fact, index) => (
+                            <li key={index}>{fact}</li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+
             {/* DYNAMIC SECTIONS */}
             {cat.sections && cat.sections.map((section, index) => {
                 const sectionId = generateSlug(section.title);
@@ -154,23 +171,6 @@ function CatDetail() {
                     </div>
                 );
             })}
-
-            {/* FUN FACTS */}
-            {cat.funFacts && (
-                <div id="fun-facts" className="bg-yellow-100 p-6 border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] relative scroll-mt-32 transform -rotate-1">
-                    {/* Tape visual */}
-                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-24 h-6 bg-yellow-200 opacity-50 border-x border-white"></div>
-                    
-                    <h3 className="font-black text-xl mb-4 underline decoration-2 decoration-black">
-                        NOTES & TRIVIA:
-                    </h3>
-                    <ul className="list-disc list-inside space-y-2 font-mono text-sm md:text-base">
-                        {cat.funFacts.map((fact, index) => (
-                            <li key={index}>{fact}</li>
-                        ))}
-                    </ul>
-                </div>
-            )}
           </div>
 
           {/* === RIGHT COLUMN: SIDEBAR === */}
