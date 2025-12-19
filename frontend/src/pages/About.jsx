@@ -70,7 +70,8 @@ function About() {
             <div className="flex-1 text-center md:text-left space-y-3 w-full">
                 <h3 className="text-xl md:text-2xl font-black uppercase bg-yellow-300 inline-block px-2">The Developer</h3>
                 <p className="font-serif italic text-base md:text-lg leading-tight">
-                    "Building distinct digital experiences with modern tools and retro aesthetics."
+                    "You learn, and then you build. Build and make mistakes. Learn from mistakes and build again." <br/> <br/>
+                    "Fan of retro aesthetics."
                 </p>
                 
                 <div className="flex gap-2 justify-center md:justify-start pt-2">

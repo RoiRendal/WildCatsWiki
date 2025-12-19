@@ -47,7 +47,7 @@ function Navbar() {
       </div>
       
       <div className="bg-black text-white py-1 px-4 text-xs font-mono overflow-hidden whitespace-nowrap border-t-2 border-white">
-        WELCOME TO THE WILD CATS DATABASE /// EST. 2025 /// UNDER CONSTRUCTION
+        WELCOME TO THE WILD CATS DATABASE /// EST. 2025
       </div>
 
     </nav>
