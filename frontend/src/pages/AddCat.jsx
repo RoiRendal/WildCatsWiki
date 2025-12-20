@@ -229,7 +229,10 @@ const removeFunFact = (index) => {
                     {formData.imageUrl && (
                         <div className="border-2 border-black p-2 bg-white inline-block shadow-[4px_4px_0px_0px_rgba(0,0,0,0.5)] max-w-full">
                             <p className="font-mono text-xs font-bold mb-1">PREVIEW_RENDER:</p>
-                            <img src={formData.imageUrl} alt="Preview" className="h-24 md:h-32 w-auto object-cover border border-black" />
+                            <img src={formData.imageUrl} alt="Preview" referrerPolicy="no-referrer" className="h-24 md:h-32 w-auto object-cover border border-black" onError={(e) => {
+                e.target.onerror = null; 
+                e.target.src = "https://placehold.co/400x300?text=Invalid+Image+Source";
+            }} />
                         </div>
                     )}
                 </div>
